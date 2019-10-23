@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@6.9.0
+3 info using node@v10.16.3
+4 verbose npm-session 481251507208109c
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/@angular%2fcli 189ms
+8 silly pacote tag manifest for @angular/cli@latest fetched in 241ms
+9 timing stage:loadCurrentTree Completed in 270ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule @angular/cli@8.3.5 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2farchitect 272ms
+18 http fetch GET 200 https://registry.npmjs.org/@yarnpkg%2flockfile 269ms
+19 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fcore 275ms
+20 http fetch GET 200 https://registry.npmjs.org/@schematics%2fangular 277ms
+21 silly pacote version manifest for @angular-devkit/architect@0.803.5 fetched in 308ms
+22 silly resolveWithNewModule @angular-devkit/architect@0.803.5 checking installable status
+23 silly pacote version manifest for @yarnpkg/lockfile@1.1.0 fetched in 306ms
+24 silly resolveWithNewModule @yarnpkg/lockfile@1.1.0 checking installable status
+25 silly pacote version manifest for @angular-devkit/core@8.3.5 fetched in 316ms
+26 silly resolveWithNewModule @angular-devkit/core@8.3.5 checking installable status
+27 silly pacote version manifest for @schematics/angular@8.3.5 fetched in 320ms
+28 silly resolveWithNewModule @schematics/angular@8.3.5 checking installable status
+29 http fetch GET 200 https://registry.npmjs.org/@schematics%2fupdate 342ms
+30 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fschematics 352ms
+31 http fetch GET 200 https://registry.npmjs.org/npm-package-arg 50ms
+32 http fetch GET 200 https://registry.npmjs.org/open 49ms
+33 silly pacote version manifest for @schematics/update@0.803.5 fetched in 369ms
+34 silly resolveWithNewModule @schematics/update@0.803.5 checking installable status
+35 silly pacote version manifest for @angular-devkit/schematics@8.3.5 fetched in 375ms
+36 silly resolveWithNewModule @angular-devkit/schematics@8.3.5 checking installable status
+37 silly pacote version manifest for npm-package-arg@6.1.0 fetched in 73ms
+38 silly resolveWithNewModule npm-package-arg@6.1.0 checking installable status
+39 silly pacote version manifest for open@6.4.0 fetched in 79ms
+40 silly resolveWithNewModule open@6.4.0 checking installable status
+41 http fetch GET 200 https://registry.npmjs.org/read-package-tree 296ms
+42 silly pacote version manifest for read-package-tree@5.3.1 fetched in 331ms
+43 silly resolveWithNewModule read-package-tree@5.3.1 checking installable status
+44 http fetch GET 200 https://registry.npmjs.org/semver 289ms
+45 http fetch GET 200 https://registry.npmjs.org/uuid 278ms
+46 http fetch GET 200 https://registry.npmjs.org/universal-analytics 292ms
+47 http fetch GET 200 https://registry.npmjs.org/symbol-observable 298ms
+48 http fetch GET 200 https://registry.npmjs.org/pacote 357ms
+49 silly pacote version manifest for semver@6.3.0 fetched in 313ms
+50 silly resolveWithNewModule semver@6.3.0 checking installable status
+51 silly pacote range manifest for uuid@^3.3.2 fetched in 300ms
+52 silly resolveWithNewModule uuid@3.3.3 checking installable status
+53 silly pacote range manifest for universal-analytics@^0.4.20 fetched in 314ms
+54 silly resolveWithNewModule universal-analytics@0.4.20 checking installable status
+55 silly pacote version manifest for symbol-observable@1.2.0 fetched in 318ms
+56 silly resolveWithNewModule symbol-observable@1.2.0 checking installable status
+57 silly pacote version manifest for pacote@9.5.5 fetched in 380ms
+58 silly resolveWithNewModule pacote@9.5.5 checking installable status
+59 http fetch GET 200 https://registry.npmjs.org/debug 5144ms
+60 http fetch GET 200 https://registry.npmjs.org/ini 5150ms
+61 http fetch GET 200 https://registry.npmjs.org/inquirer 5161ms
+62 silly pacote range manifest for debug@^4.1.1 fetched in 5170ms
+63 silly resolveWithNewModule debug@4.1.1 checking installable status
+64 silly pacote version manifest for inquirer@6.5.1 fetched in 5184ms
+65 silly resolveWithNewModule inquirer@6.5.1 checking installable status
+66 http fetch GET 200 https://registry.npmjs.org/ini/-/ini-1.3.5.tgz 41ms
+67 silly pacote version manifest for ini@1.3.5 fetched in 5205ms
+68 silly resolveWithNewModule ini@1.3.5 checking installable status
+69 silly fetchPackageMetaData error for ansi-colors@4.1.1 request to https://registry.npmjs.org/ansi-colors failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org registry.npmjs.org:443
+70 timing stage:rollbackFailedOptional Completed in 0ms
+71 timing stage:runTopLevelLifecycles Completed in 81361ms
+72 verbose type system
+73 verbose stack FetchError: request to https://registry.npmjs.org/ansi-colors failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org registry.npmjs.org:443
+73 verbose stack     at ClientRequest.req.on.err (/usr/lib/node_modules/npm/node_modules/node-fetch-npm/src/index.js:68:14)
+73 verbose stack     at ClientRequest.emit (events.js:198:13)
+73 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:392:9)
+73 verbose stack     at TLSSocket.emit (events.js:198:13)
+73 verbose stack     at emitErrorNT (internal/streams/destroy.js:91:8)
+73 verbose stack     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+73 verbose stack     at process._tickCallback (internal/process/next_tick.js:63:19)
+74 verbose cwd /mnt/c/Windows/system32
+75 verbose Linux 4.4.0-18362-Microsoft
+76 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "@angular/cli"
+77 verbose node v10.16.3
+78 verbose npm  v6.9.0
+79 error code EAI_AGAIN
+80 error errno EAI_AGAIN
+81 error request to https://registry.npmjs.org/ansi-colors failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org registry.npmjs.org:443
+82 verbose exit [ 1, true ]
